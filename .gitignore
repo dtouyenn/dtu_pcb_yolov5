@@ -1,25 +1,25 @@
 # Repo-specific GitIgnore ----------------------------------------------------------------------------------------------
-*.jpg
-*.jpeg
-*.png
+# *.jpg
+# *.jpeg
+# *.png
 *.bmp
 *.tif
 *.tiff
 *.heic
-*.JPG
-*.JPEG
-*.PNG
+# *.JPG
+# *.JPEG
+# *.PNG
 *.BMP
 *.TIF
 *.TIFF
 *.HEIC
-*.mp4
-*.mov
+#*.mp4
+#*.mov
 *.MOV
 *.avi
 *.data
-*.json
-*.cfg
+#*.json
+#*.cfg
 !setup.cfg
 !cfg/yolov3*.cfg
 
@@ -35,7 +35,7 @@ data/images/*
 !data/images/bus.jpg
 !data/*.sh
 
-results*.csv
+#results*.csv
 
 # Datasets -------------------------------------------------------------------------------------------------------------
 coco/
@@ -48,16 +48,15 @@ VOC/
 !targets*.mat
 
 # Neural Network weights -----------------------------------------------------------------------------------------------
-*.weights
-*.pt
-*.pb
-*.onnx
-*.engine
-*.mlmodel
-*.torchscript
-*.tflite
-*.h5
-*_saved_model/
+#*.weights
+#*.pb
+#*.onnx
+#*.engine
+#*.mlmodel
+#*.torchscript
+#*.tflite
+#*.h5
+#*_saved_model/
 *_web_model/
 *_openvino_model/
 *_paddle_model/
