@@ -883,7 +883,7 @@ class Classify(nn.Module):
         return self.linear(self.drop(self.pool(self.conv(x)).flatten(1)))
 
 
-// ================================================================================//
+# ================================================================================//
 
 # SE 
 class SE(nn.Module):
@@ -980,7 +980,7 @@ class h_swish(nn.Module):
 
 class CoordinateAttention(nn.Module):
     def __init__(self, inp, oup, reduction=32):
-        super(CoordAtt, self).__init__()
+        super(CoordinateAttention, self).__init__()
         self.pool_h = nn.AdaptiveAvgPool2d((None, 1))
         self.pool_w = nn.AdaptiveAvgPool2d((1, None))
         mip = max(8, inp // reduction)
