@@ -9,6 +9,11 @@ anchors: 4            # AutoAnchor evolves 4 anchors per P output layer
   # - [30,61, 62,45, 59,119]  # P4/16
   # - [116,90, 156,198, 373,326]  # P5/32
 
+# replace activation function
+    #activation: nn.Hardswish()         <-- final model 
+    #activation: nn.Mish()
+    #activation: nn.LeakyReLU(0.1)
+
 # YOLOv5 v6.0 backbone
 backbone:
   # [from, number, module, args]
